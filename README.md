@@ -1,9 +1,15 @@
 ```
-Compared to more time-consuming acquisition methods like forensic device imaging or a full iOS backup, retrieving the Shutdown.log file is rather straightforward. The log file is stored in a sysdiagnose (sysdiag) archive.
-
-Sysdiag can be thought of as a collection of system logs and databases that can be generated for debugging and troubleshooting purposes. The method for generating a sysdiag may differ from one iOS version to another. Nevertheless, this archive can be found in the OS general settings, specifically under “Privacy and Analytics”, although again the exact location name may differ between iOS versions.
-
-The archive is created relatively quickly, typically taking only a few minutes. The result is a .tar.gz file about 200-400MB in size. This file can then be transferred to the analysis machine. Once the archive is unpacked, the Shutdown.log file is located within the “\system_logs.logarchive\Extra” directory.
+Compared to more time-consuming acquisition methods like forensic device imaging or a full iOS backup, retrieving 
+the Shutdown.log file is rather straightforward. The log file is stored in a sysdiagnose (sysdiag) archive. 
+ 
+Sysdiag can be thought of as a collection of system logs and databases that can be generated for debugging and 
+troubleshooting purposes. The method for generating a sysdiag may differ from one iOS version to another. 
+Nevertheless, this archive can be found in the OS general settings, specifically under “Privacy and Analytics”, 
+although again the exact location name may differ between iOS versions. 
+ 
+The archive is created relatively quickly, typically taking only a few minutes. The result is a .tar.gz file about 
+200-400MB in size. This file can then be transferred to the analysis machine. Once the archive is unpacked, 
+the Shutdown.log file is located within the “\system_logs.logarchive\Extra” directory. 
 ```
 
 ---
